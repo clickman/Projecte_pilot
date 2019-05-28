@@ -5,4 +5,4 @@ require(ggplot2)
 # Fem un pair plot de les dades iris
 ggplot(iris) +
   geom_point(aes(x=Sepal.Length, y=Sepal.Width, color=Species)) +
-  theme_void()
+  theme_bw()

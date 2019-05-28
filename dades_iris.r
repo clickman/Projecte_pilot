@@ -8,4 +8,5 @@ plot(iris)
 
 # Ggplot2
 ggplot(iris) + 
-  geom_point(aes(x = Sepal.Length, y = Sepal.Width, col = Species))
+  geom_point(aes(x = Sepal.Length, y = Sepal.Width, col = Species)) +
+  theme_void()
